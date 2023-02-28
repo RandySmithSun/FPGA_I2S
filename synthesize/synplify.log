@@ -1,0 +1,90 @@
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -dir {D:/pango/PDS_2022.1/syn/bin/synplify_pro.exe} -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -dir {D:/pango/PDS_2022.1/syn/bin/synplify_pro.exe} -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top
+
+Inputs and Outputs :
++------------------------------------------------------------------+
+| Type       | File Name                                          
++------------------------------------------------------------------+
+| Input      | D:/FPGA/Project/I2S/source/i2s_top.v               
+|            | D:/FPGA/Project/I2S/source/dac_out.v               
+|            | D:/FPGA/Project/I2S/source/top.v                   
+|            | D:/FPGA/Project/I2S/ipcore/dac_pll/dac_pll.idf     
+| Output     | D:/FPGA/Project/I2S/synthesize/snr.db              
+|            | D:/FPGA/Project/I2S/synthesize/synplify.log        
++------------------------------------------------------------------+
+
+
+Flow Command: synthesize -dir {D:/pango/PDS_2022.1/syn/bin/synplify_pro.exe} -include_path {D:/FPGA/Project/I2S} -selected_syn_tool_opt 1 -top_module top

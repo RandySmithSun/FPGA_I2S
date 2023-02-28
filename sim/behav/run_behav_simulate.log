@@ -1,0 +1,67 @@
+# Reading D:/Modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# 
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet usim D:/pango/PDS_2022.1/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet adc D:/pango/PDS_2022.1/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrc D:/pango/PDS_2022.1/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet ddrphy D:/pango/PDS_2022.1/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet hsst_e2 D:/pango/PDS_2022.1/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 20:40:17 on Feb 25,2023
+# vlog -reportprogress 300 D:/FPGA/Project/I2S/source/i2s_top.v -work work 
+# -- Compiling module i2s_top
+# ** Error (suppressible): D:/FPGA/Project/I2S/source/i2s_top.v(21): (vlog-2388) 'Key_R_Flag' already declared in this scope (i2s_top).
+# 
+# ** Error (suppressible): D:/FPGA/Project/I2S/source/i2s_top.v(31): (vlog-2388) 'State' already declared in this scope (i2s_top).
+# 
+# End time: 20:40:17 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/Modelsim/win64/vlog failed.
+# Error in macro ./run_behav_compile.tcl line 13
+# D:/Modelsim/win64/vlog failed.
+#     while executing
+# "vlog   "D:/FPGA/Project/I2S/source/i2s_top.v" -work work"
+# do {run_behav_simulate.tcl}
+# vsim -gui -do "do {run_behav_compile.tcl};do {run_behav_simulate.tcl}" -l run_behav_simulate.log 
+# Start time: 20:40:18 on Feb 25,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# ** Error: (vsim-3170) Could not find 'D:/FPGA/Project/I2S/sim/behav/work.sim_top'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_behav_simulate.tcl PAUSED at line 6
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 20:41:15 on Feb 25,2023, Elapsed time: 0:00:57
+# Errors: 1, Warnings: 1
